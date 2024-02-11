@@ -46,7 +46,7 @@ const imageMap = {
   2: '/oak.png',
 };
 
-const tileSize = 90;
+const tileSize = 70;
 
 onMounted(() => {
   map = generateMap(20, 20, 0, 2);
@@ -146,5 +146,6 @@ async function moveAndSummonParticles(newX: number, newY: number) {
 <style>
 body {
   background-color: #242424;
+  overflow: hidden;
 }
 </style>
