@@ -19,7 +19,7 @@ import {
   resetCamera,
   animateParticles,
   renderParticles
-} from '~/engine';
+} from './engine/tilemap-engine';
 
 interface Character {
   id: number;
